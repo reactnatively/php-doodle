@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>Welcome to Doodle</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
-
+	gfdgdsfgsdfg
 
 	<div class="mainSection">
 
