@@ -14,5 +14,9 @@ class DomDocumentParser {
 		@$this->doc->loadHTML(file_get_contents($url, false, $context));
 	}
 
+	public function getlinks() {
+		return $this->doc->getElementsByTagName("a");
+	}
+
 }
 ?>
