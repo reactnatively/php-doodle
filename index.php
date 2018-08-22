@@ -3,11 +3,10 @@
 <head>
 	<title>Welcome to Doodle</title>
 
-	 <meta charset="UTF-8">
-	 <meta name="description" content="Search the web for sites and images">
-	 <meta name="keywords" content="search engine, doodle, websites">
-	 <meta name="author" content="Al Nolan">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Search the web for sites and images.">
+	<meta name="keywords" content="Search engine, doodle, websites">
+	<meta name="author" content="Reece Kenney">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -15,12 +14,12 @@
 <body>
 
 	<div class="wrapper indexPage">
-
+	
 
 		<div class="mainSection">
 
 			<div class="logoContainer">
-				<img src="assets/images/doodleLogo.png">
+				<img src="assets/images/doodleLogo.png" title="Logo of our site" alt="Site logo">
 			</div>
 
 
