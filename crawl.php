@@ -8,7 +8,7 @@ function createLink($src, $url) {
 
 	$scheme = parse_url($url)["scheme"]; // http
 	$host = parse_url($url)["host"]; // www.reecekenney.com
-	
+
 	if(substr($src, 0, 2) == "//") {
 		$src =  $scheme . ":" . $src;
 	}
@@ -59,13 +59,13 @@ function getDetails($url) {
 		if($meta->getAttribute("name") == "keywords") {
 			$keywords = $meta->getAttribute("content");
 		}
+
 	}
 
 	$description = str_replace("\n", "", $description);
 	$keywords = str_replace("\n", "", $keywords);
 
-
-	
+	//echo "URL: $url<br/> Description: $description<br/> Keywords: $keywords<hr/>";
 
 }
 
