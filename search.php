@@ -1,5 +1,8 @@
 <?php
 
+	//
+	include("config.php");
+
 	if(isset($_GET["term"])) {
 		$term = $_GET["term"];
 	}
@@ -10,7 +13,7 @@
 	$type = isset($_GET["type"]) ? $_GET["type"] : "sites";
 
 
-	
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,7 +26,7 @@
 <body>
 
 	<div class="wrapper">
-	
+
 		<div class="header">
 
 

@@ -6,7 +6,7 @@
   //
   try {
 
-    $con = new PDO("mysql:dbname=doodle;host=localhost", "doodle", "B1@thering!");
+    $con = new PDO("mysql:dbname=doodle;host=127.0.0.1", "doodle", "B1@thering!");
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 
   }
